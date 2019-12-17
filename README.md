@@ -5,6 +5,7 @@ Any feedback is more than welcome as I'm trying to learn more about SaltStack an
 
 Requisities:
 * Working master-slave architecture
+* Basic understanding of SaltStack's gimmicks.
 * Already configured file_roots:
 (Master config)
 
