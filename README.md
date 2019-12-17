@@ -1,6 +1,11 @@
-# Apache4Ubuntu_And_Centos7
+SaltStack
+
 Hello, this is my first GitHub repo and It is currently a mess.
 Any feedback is more than welcome as I'm trying to learn more about SaltStack and posting to GitHub.
+Requisities:
+* Working master-slave architecture
+* Already configured file_roots:
+(Master config)
 This "project" is for learning SaltStack and all of this should be done as saltmaster.
 I used Ubuntu 18.04.3 LTS as my saltmaster's distro, and saltstack version of 2019.2.2.
 NOTE: If you have no clue about SaltStack (master-slave architecture) visit here: https://docs.saltstack.com/en/latest/
