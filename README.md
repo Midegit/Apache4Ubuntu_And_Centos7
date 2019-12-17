@@ -1,11 +1,11 @@
 # Apache4Ubuntu_And_Centos7
 Hello, this is my first GitHub repo and It is currently a mess.
 Any feedback is more than welcome as I'm trying to learn more about SaltStack and posting to GitHub.
-This project is for learning SaltStack and all of this should be done as saltmaster.
+This "project" is for learning SaltStack and all of this should be done as saltmaster.
 I used Ubuntu 18.04.3 LTS as my saltmaster's distro, and saltstack version of 2019.2.2.
 NOTE: If you have no clue about SaltStack (master-slave architecture) visit here: https://docs.saltstack.com/en/latest/
 
-This shitshow works with following distros:
+Works with following distros:
 * Ubuntu 18.04.3 LTS
 * CentOS Linux release 7.7.1908 (core)
 
