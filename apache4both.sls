@@ -32,7 +32,7 @@ Enable tune_apache:
 
 /var/www/html/{{ pillar['domain'] }}/log:
   file.directory
-
+  
 /var/www/html/{{ pillar['domain'] }}/backups:
   file.directory
 /var/www/html/{{ pillar['domain'] }}/public_html:
