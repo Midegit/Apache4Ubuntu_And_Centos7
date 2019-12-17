@@ -2,6 +2,7 @@ SaltStack
 
 Hello, this is my first GitHub repo and It is currently a mess.
 Any feedback is more than welcome as I'm trying to learn more about SaltStack and posting to GitHub.
+
 Requisities:
 * Working master-slave architecture
 * Already configured file_roots:
