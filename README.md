@@ -14,15 +14,13 @@ STATES
 Downloads and manages Apache's webserver packages.
 Allows you to manage virtualhosting easily as a saltmaster. (Uses pillardata)
 
-#top.sls
-#ptop.sls
-Top files of : 
-/srv/salt
-/srv/pillar
+#top.sls and ptop.sls
+Top files of "base" and "pillar"
+
 ptop.sls belongs to your pillar directory.
-Remember to rename ptop.sls to top.sls!
+REMEMBER TO RENAME ptop.sls to top.sls in order to make this work!
+
 top.sls is your "base" top file what needs to be run as : "state.apply or state.highstate"
 
 #apache.sls
-This belongs to your pillar directory.
-Includes domainname.
+This belongs to your pillar directory and it's for configuring domainname.
