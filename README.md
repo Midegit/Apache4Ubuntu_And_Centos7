@@ -16,8 +16,11 @@ Allows you to manage virtualhosting easily as a saltmaster. (Uses pillardata)
 
 #top.sls
 #ptop.sls
-Top files of /srv/salt & /srv/pillar
-ptop.sls belongs to your pillar directory. Remember to rename ptop.sls to top.sls!
+Top files of : 
+/srv/salt
+/srv/pillar
+ptop.sls belongs to your pillar directory.
+Remember to rename ptop.sls to top.sls!
 top.sls is your "base" top file what needs to be run as : "state.apply or state.highstate"
 
 #apache.sls
