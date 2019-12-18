@@ -20,7 +20,7 @@ Works with following distros:
 ##Configurations##
 
 Make a dir for your index.html -> ' /srv/salt/yourdomainname/ ' (see apache.sls from below)
-Make a dir for your files -> '/srv/salt/files ' Files below this line belongs to /files dir. (include_sites_enabled.conf is kinda optional, only required with centOS)
+ Make a dir for your files -> '/srv/salt/files ' Files that are listed below with * belongs to srv/salt/files dir. (include_sites_enabled.conf is kinda optional, only required with centOS)
 
 * include_sites_enabled.conf
 * tune_apache.conf
@@ -40,3 +40,5 @@ top.sls is your "base" top file what needs to be run as : "state.apply or state.
 
 #apache.sls:
  This belongs to your pillar directory and it's for configuring domainname.
+ 
+ TIP: I used jinja templates to coordinate stuff to Debian<>CentOS. By removing {%elif grains ['os_family'] == 'RedHat'%} and everything below that (except jinja's endif-statement) you'll have same functionality but just for Ubuntu or other way around.
