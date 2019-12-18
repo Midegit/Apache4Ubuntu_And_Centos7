@@ -17,8 +17,11 @@ Works with following distros:
 * Ubuntu 18.04.3 LTS
 * CentOS Linux release 7.7.1908 (core)
 
-STATES
+##Configurations##
+Make a dir for your index.html -> /srv/salt/yourdomainname/'index.html' (see apache.sls from below)
+Make a dir for your files -> /srv/salt/files
 
+STATES
 #apache4both.sls: 
 Downloads and manages Apache's webserver packages.
 Allows you to manage virtualhosting easily as a saltmaster. (Uses pillardata)
