@@ -18,8 +18,12 @@ Works with following distros:
 * CentOS Linux release 7.7.1908 (core)
 
 ##Configurations##
-Make a dir for your index.html -> /srv/salt/yourdomainname/'index.html' (see apache.sls from below)
-Make a dir for your files -> /srv/salt/files
+
+Make a dir for your index.html -> ' /srv/salt/yourdomainname/ ' (see apache.sls from below)
+Make a dir for your files -> '/srv/salt/files ' Files below this line belongs to /files dir. (include_sites_enabled.conf is kinda optional, only required with centOS)
+
+* include_sites_enabled.conf
+* tune_apache.conf
 
 STATES
 #apache4both.sls: 
